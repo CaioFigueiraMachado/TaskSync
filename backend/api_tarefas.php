@@ -1,4 +1,4 @@
-<?php
+<?php // Caio Figueira Machado
 require_once 'db.php';
 header('Content-Type: application/json');
 

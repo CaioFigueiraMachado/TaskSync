@@ -1,4 +1,4 @@
-<?php
+<?php // Caio Figueira Machado
 $host = 'localhost';
 $dbname = 'tasksync';
 $user = 'root'; // Padrão XAMPP
