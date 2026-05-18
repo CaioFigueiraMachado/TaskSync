@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskSync - Kanban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🚀 TaskSync</div>
+        <div class="nav-links">
+            <a href="index.html" style="color: var(--primary);">Kanban</a>
+            <a href="cadastro_tarefa.html">Nova Tarefa</a>
+            <a href="cadastro_usuario.html">Novo Usuário</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="kanban-board">
+            <div class="column">
+                <h2>A Fazer <span class="badge" id="badge-afazer">0</span></h2>
+                <div class="cards-container" id="col-afazer">
+                    <!-- Cards de tarefas renderizados via JS -->
+                </div>
+            </div>
+            
+            <div class="column">
+                <h2>Fazendo <span class="badge" id="badge-fazendo">0</span></h2>
+                <div class="cards-container" id="col-fazendo">
+                    <!-- Cards de tarefas renderizados via JS -->
+                </div>
+            </div>
+            
+            <div class="column">
+                <h2>Concluído <span class="badge" id="badge-concluido">0</span></h2>
+                <div class="cards-container" id="col-concluido">
+                    <!-- Cards de tarefas renderizados via JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
